@@ -11,12 +11,30 @@ if (process.argv.length < 3) {
     algorithms.forEach((item) => console.log(item))
 }
 
-let test = testCases
+let tests = testCases
 const insertion = (input) => {
-    console.log(input)
+    tests.forEach((test) => {
+        console.log(`Input: ${test}`)
+
+        console.log("Output: ")
+        console.log("- - - - - -")
+    })
+    console.log("end of test for insertion")
 }
+
+// const template = (input) => {
+//     tests.forEach((test) => {
+//         console.log(`Input: ${test}`)
+//         // Insert algorithm
+//         // algorithm
+//         // here
+//         console.log("Output: ")
+//         console.log("- - - - - -")
+//     })
+//     console.log("end of test for ____")
+// }
 // Switch statement that checks for the arg and returns the corresponding items with the input
 switch (parseInt(process.argv[2])) {
     case 1:
-        insertion(test)
+        insertion(tests)
 }
