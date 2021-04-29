@@ -1,4 +1,7 @@
-1. Ensure Node.js is installed.
-2. Test programs with node <file name> <number of algorithm>
+Each file is organized by CS topic i.e sorting, trees, bfs, 
 
-View table of contents using node <file name>
+1. Ensure Node.js is installed.
+2. Test programs with node file-name algorithm-number
+
+View table of contents of the topic using node file-name
+i.e node sorting.js
