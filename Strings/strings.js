@@ -1,5 +1,5 @@
 // import testCases from "./testCases"
-const testCases = require("./testCases")
+const testCases = require("../stringTestCases")
 
 // List of arugments for reference
 const algorithms = [{insertion: 1}]
@@ -22,8 +22,6 @@ const template = (tests, algorithm) => {
 }
 
 const insertion = (a) => {
-    //
-    // console.log("running insertion")
     return [1, 1, 1, 1]
 }
 // Switch statement that checks for the arg and returns the corresponding items with the input
