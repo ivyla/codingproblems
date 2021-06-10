@@ -1,5 +1,5 @@
 // import testCases from "./testCases"
-const testCases = require(".././testCases")
+const testCases = require("../sortingTestCases")
 
 // List of arugments for reference
 const algorithms = [{insertion: 1}]

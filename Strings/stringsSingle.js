@@ -1,5 +1,8 @@
 let testStrings = []
-const testAlgorithm = (string) => {
+
+// Runtime: O(n)
+// Space: O(i)
+const unique = (string) => {
     let result
     // --------------------------------------
     let reference = new Array(128)
@@ -16,8 +19,12 @@ const testAlgorithm = (string) => {
 for (let i = 2; i < process.argv.length; i++) {
     let currentString = process.argv[i]
     console.log(`Testing: ${currentString}`)
-    let result = testAlgorithm(currentString)
+    // let result = unique(currentString)
+    let result = permutation(currentString)
+    
     console.log(`Result: ${result}`)
     // console.log(`Result: ${result} \n ----`)
     console.log(`----`)
 }
+
+// let result = algNameHere(currentString)

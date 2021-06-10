@@ -1,6 +1,6 @@
 let testStrings = []
 
-// Runtime: ---
+// Runtime: O(n)
 // Space: ---
 const permutation = (a, b) => {
     let result
